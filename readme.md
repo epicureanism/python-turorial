@@ -6,44 +6,51 @@ class:
 ---
 
 # Agenda
-- Week 1: [Say Hello to the World](hello-world/readme.md)
-    - 開發環境
-    - 變數
-- Week 2: [我的BMI](basics/readme.md)
-    - 基礎型別
+- Course 1 (2 hrs)
+    - 開發環境 
+    - 變數 
+    - 練習：[Say Hello to the World](hello-world/readme.md) 
+- Course 2 (2 hrs)
+    - 基礎型別 
         - int, float, string, bool
-    - 四則運算
+    - 四則運算 
     - 使用者輸入
+    - 練習：[我的BMI](basics/readme.md)
 
 ---
 
-- Week 3: 
+- Course 3 (1 hrs)
     - 邏輯判斷
         - indent            
         - if, elif, else
         - match, case, _
 
-- Week 4: [密碼產生器](iteration/readme.md)
+- Course 4 (2 hrs)
     - for 迴圈
-        - break, continue
+        - break, continue, range()
     - while 迴圈
-
-- Week 5: [抽籤遊戲](list/readme.md)
-    - 串列 list
-
+    - 練習：[密碼產生器](iteration/readme.md)
 ---
 
-- Week 6: [倒數計時器](function/readme.md)
-    - 函式
-- Week 7:
+- Course 5 (2 hrs)
+    - 串列 list
+    - 練習：[抽籤遊戲](list/readme.md)
+- Course 6 (2 hrs)
     - 資料結構 
         - 序對 (Tuple)
         - 集合 (Set)
-- Week 8:
-    - 資料結構 
-        - 字典 (Dictionary)
-        
 ---
 
-- Week 9: []()
+- Course 7 (2 hrs)
+    - 資料結構 
+        - 字典 (Dictionary)
+- Course 8 (1 hrs)
+    - 函式 - def, global        
+    - 練習：[倒數計時器](function/readme.md)
+    
+---
+- Course 9: 資料視覺化 (3 hrs)
+    - pyplot
+- Course 10: []() (2 hrs)
     - 檔案存取與中文支援
+    - 練習：CSV files

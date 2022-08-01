@@ -10,12 +10,16 @@ class:
 ---
 
 # Introduce python
-- Python is an interpreted, object-oriented, high-level **programming language** with dynamic semantics.
-- 直譯式、進階和通用的程式語言
+- Python is an interpreted, object-oriented, high-level **programming language**.
+  - 直譯式
+  - 物件導向
+  - 高階
+  - 
 - 常用在
     - Data science and machine learning
     - Web 開發
     - 自動化測試、爬蟲、駭客…
+    - 有了這些龐大的應用，才有助於形成蓬勃的開發生態圈
 
 ---
 
@@ -39,7 +43,18 @@ class:
 ---
 
 # Variable 變數
+- 類似盒子的概念
 - 存放暫時性的資訊，是程式語言中重要的概念
+  - 命名只能是字母、或數字、或底線符號(_)
+  - 開頭不能是數字
+```python
+pi = 3.14159
+lucky_number = 7 # 底線是常見的命名方式
+_pi = 3.14159 # 開頭也可以是底線
+3pi = 3.14159 # 這個是錯誤的語法！變數命名不能是數字開頭
+lucky@number = 7 # 這個也是錯誤的命名，變數命名不可包含特殊字元
+```
+
 - 練習：qrcode of my ig, fb, or blog    
     - VS Code 中開啟 Terminal (終端機), 安裝下列 qrcode 套件 
     ```sh

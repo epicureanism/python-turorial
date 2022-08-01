@@ -9,21 +9,23 @@ class:
 - Course 1 (2 hrs)
     - 開發環境 
     - 變數 
-    - 練習：[Say Hello to the World](hello-world/readme.md) 
+    - 練習：[Say Hello to the World](01_hello-world/readme.md) 
 - Course 2 (2 hrs)
     - 基礎型別 
         - int, float, string, bool
     - 四則運算 
     - 使用者輸入
-    - 練習：[我的BMI](basics/readme.md)
+    - 利用 print 格式化文數字
+    - 練習：[我的BMI](01_basics/readme.md)
 
 ---
 
 - Course 3 (1 hrs)
     - 邏輯判斷
-        - indent            
-        - if, elif, else
-        - match, case, _
+      - 比較運算子
+      - indent            
+      - if, elif, else
+      - match, case, _
 
 - Course 4 (2 hrs)
     - for 迴圈

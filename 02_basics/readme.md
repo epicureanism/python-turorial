@@ -28,6 +28,10 @@ False
 a = 1
 b = 1
 print(a==b)
+
+t = False
+print(t == True)
+
 ```
 
 ---
@@ -111,16 +115,20 @@ print(f"{demo} {type(demo)}")
   - += 
     - x += 5 相當於 x = x + 5
     - x -= 5 相當於 x = x - 5
+---
 
+## 範例
 ```py
 a = 10
-b = 0.25
+b = 0.5
 a = (a + b) * 2 # 小括號可指定運算的優先次序
-print(a, end=' ') # 20.5 
+print(a, end=' ') # 21 
 print(type(a)) #a 已從整數自動轉為浮點數
-print(a/2) # 10.25
+print(a/2) # 10.5
 print(a//2)# 10.0
-print(a%2) # 0.5
+print(a%2) # 1.0
+a += 0.5
+print(a) # 21.5
 ```
 
 ---
@@ -131,7 +139,7 @@ print(a%2) # 0.5
 
 # 練習
 - 建立 my-bmi.py
-    - 體重 ( 公斤 ) 除以身高 ( 公尺 ) 的平方
+    - BMI 公式是：體重(公斤)除以身高(公尺)的平方
 ```py
 # input 會呼叫終端機，請使用者輸入數值
 # float 是內建函式，將輸入值進行型別轉換

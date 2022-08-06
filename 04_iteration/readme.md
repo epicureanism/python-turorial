@@ -9,6 +9,9 @@ pagination: true
 
 # 迴圈
 - 重覆執行同一件事 
+- 有兩種撰寫方式
+  - for 迴圈
+  - while 迴圈
 
 ---
 
@@ -16,10 +19,10 @@ pagination: true
 - 語法
   - for 變數名稱 in 可迭代的物件:
   - 例
-  ```py
-  s = "hello"
-  for i in s:
-    print(i)
-    
-  ```
+```py
+s = "hello"
+for i in s:
+print(i)
+
+```
 ---
